@@ -29,10 +29,10 @@ To use the `Sidebar` component in a layout, add the following:
 
 ## Adding more components
 
-Add a new PHP class in `src/Components`. Make sure the filename and the class name are match.
-Add another line in `extension.json` under `AutoloadClasses` and reference your new class:
-```
-	"AutoloadClasses": {
-		"Skins\\Chameleon\\Components\\MyComponent": "src/Components/MyComponent.php"
-	},
+Add a new PHP class in [`src/Components`](src/Components). Make sure the filename and the class name are match.
+Add another line in [`extension.json`](extension.json) under `AutoloadClasses` and reference your new class:
+```json
+"AutoloadClasses": {
+	"Skins\\Chameleon\\Components\\MyComponent": "src/Components/MyComponent.php"
+},
 ```
