@@ -1,4 +1,4 @@
-# ChameleonComponents
+# ChameleonComponentsExample
 
 Example MediaWiki extension to show how to define extra components for the [Chameleon skin](https://github.com/ProfessionalWiki/chameleon).
 
@@ -6,7 +6,7 @@ Example MediaWiki extension to show how to define extra components for the [Cham
 
 To load this extension, add the following in `LocalSettings.php`:
 ```php
-wfLoadExtension( 'ChameleonComponents' );
+wfLoadExtension( 'ChameleonComponentsExample' );
 ```
 
 ## Example: Hello World
