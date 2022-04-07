@@ -9,6 +9,8 @@ To load this extension, add the following in `LocalSettings.php`:
 wfLoadExtension( 'ChameleonComponentsExample' );
 ```
 
+If you want to use your own name for the extension, rename the folder and the name in [`extension.json`](extension.json).
+
 ## Example: Hello World
 
 The [`HelloWorld`](src/Components/HelloWorld.php) component simply prints "Hello World!".
